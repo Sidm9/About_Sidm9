@@ -22,12 +22,12 @@
     <div class="nav-links flex spacing">
       <div class="spacing">
         <router-link to="/">
-          About
+          Home
         </router-link>
       </div>
       <div class="spacing">
-        <router-link to="/about">
-          Projects
+        <router-link to="/About">
+          About
         </router-link>
       </div>
       <div class="spacing">

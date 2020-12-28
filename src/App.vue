@@ -12,8 +12,8 @@
 import Sidebar from "./views/Sidebar.vue";
 export default {
   components: {
-    Sidebar
-  }
+    Sidebar,
+  },
 };
 </script>
 <style>
@@ -23,19 +23,23 @@ export default {
 #app {
   text-align: center;
   color: #2c3e50;
+  margin: 50px;
   display: flex;
-  height: 100vh;
+  flex-wrap: wrap;
+  /* height: auto; */
   justify-content: center;
 }
 .container {
   display: flex;
   width: 70%;
   display: flex;
-  align-items: center;
+  align-items: auto;
   justify-content: center;
 }
 .navBoxes {
-  width: 70%;
-  border: black 1px solid;
+  width: 60%;
+  text-align: left;
+  height: auto;
+  border: black 10px solid;
 }
 </style>
