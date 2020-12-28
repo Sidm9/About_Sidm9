@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <Sidebar />
-    <div class="navBoxes">
-      <router-view />
+    <div class="container">
+      <Sidebar />
+      <div class="navBoxes">
+        <router-view />
+      </div>
     </div>
   </div>
 </template>
@@ -22,29 +24,15 @@ export default {
   text-align: center;
   color: #2c3e50;
   display: flex;
+  height: 100vh;
   justify-content: center;
-  border-style: double;
-  width: 100%;
-  padding: 10px;
 }
-
-#nav {
-  border: black 1px solid;
-  /* padding: 30px; */
-  width: 30%;
-  height: 80vh;
+.container {
   display: flex;
-  justify-content: center;
+  width: 70%;
+  display: flex;
   align-items: center;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  justify-content: center;
 }
 .navBoxes {
   width: 70%;
