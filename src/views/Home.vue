@@ -80,7 +80,7 @@
   justify-content: space-around;
 }
 .heading {
-  flex: 0.3;
+  flex: 0.2;
   flex-wrap: wrap;
   min-width: 200px;
   border: 5px solid white;
@@ -95,7 +95,7 @@
   width: auto;
 }
 .exp-box-container {
-  flex: 0.7;
+  flex: 0.8;
 }
 @media screen and (max-width: 600px) {
   .flex {

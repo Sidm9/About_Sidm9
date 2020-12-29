@@ -14,8 +14,8 @@
 import Sidebar from "./views/Sidebar.vue";
 export default {
   components: {
-    Sidebar,
-  },
+    Sidebar
+  }
 };
 </script>
 <style>
@@ -26,7 +26,7 @@ export default {
 #app {
   text-align: center;
   color: whitesmoke;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -47,16 +47,17 @@ export default {
   flex: 1;
   text-align: left;
   height: auto;
-  width: auto;
+  width: 700px;
   border: blue 10px solid;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #sidebar-container,
   #app {
     width: auto;
   }
-  .sidebar-container {
+  .sidebar-container,
+  .navBoxes {
     width: auto;
   }
 }

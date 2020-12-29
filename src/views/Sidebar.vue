@@ -94,7 +94,7 @@ export default {
 .nav-links a.router-link-exact-active {
   color: #42b983;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .flex {
     justify-content: center;
     align-items: center;
