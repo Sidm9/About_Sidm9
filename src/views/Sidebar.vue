@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 <template>
-  <div class="container flex">
+  <div class="xcontainer flex">
     <div class="profile spacing" />
     <div class="name spacing">
       <h1>Siddharth Mishra</h1>
@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: "Sidebar"
+  name: "Sidebar",
 };
 </script>
 
@@ -52,6 +52,7 @@ export default {
   align-items: flex-start;
 }
 .breif {
+  max-width: ;
   margin-top: 5px;
 }
 /* .icons-container {
@@ -70,12 +71,12 @@ export default {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: black 1px solid;
+  border: white 1px solid;
 }
-.container {
-  border: black 10px solid;
+.xcontainer {
+  /* border: white 5px solid; */
   flex-direction: column;
-  width: 30%;
+  width: 100%;
   height: 80vh;
 }
 .nav-links {
@@ -92,5 +93,14 @@ export default {
 }
 .nav-links a.router-link-exact-active {
   color: #42b983;
+}
+@media screen and (max-width: 600px) {
+  .flex {
+    justify-content: center;
+    align-items: center;
+  }
+  .breif {
+    text-align: center;
+  }
 }
 </style>

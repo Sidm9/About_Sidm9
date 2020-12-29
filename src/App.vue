@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <div class="container">
-      <Sidebar />
+      <div class="sidebar-container">
+        <Sidebar />
+      </div>
       <div class="navBoxes">
         <router-view />
       </div>
@@ -19,27 +21,43 @@ export default {
 <style>
 * {
   margin: 0px;
+  background-color: #20262c;
 }
 #app {
   text-align: center;
-  color: #2c3e50;
-  margin: 50px;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
-  flex-wrap: wrap;
-  /* height: auto; */
   justify-content: center;
 }
 .container {
   display: flex;
-  width: 70%;
+  width: auto;
+  border: 5px yellow ridge;
   display: flex;
+  flex-wrap: wrap;
   align-items: auto;
   justify-content: center;
 }
+.sidebar-container {
+  width: 400px;
+}
 .navBoxes {
-  width: 60%;
+  flex: 1;
   text-align: left;
   height: auto;
-  border: black 10px solid;
+  width: auto;
+  border: blue 10px solid;
+}
+
+@media screen and (max-width: 600px) {
+  #sidebar-container,
+  #app {
+    width: auto;
+  }
+  .sidebar-container {
+    width: auto;
+  }
 }
 </style>
