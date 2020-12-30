@@ -68,4 +68,21 @@ export default {
     min-width: auto;
   }
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #7fffd4 14%, #32fcb9 64%);
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #53edba;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+  border-radius: 15px;
+  box-shadow: inset 7px 2px 12px #121212;
+}
 </style>

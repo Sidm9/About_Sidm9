@@ -6,7 +6,8 @@
       <p>
         I specialize in digital strategy, project management, and development. I
         have been at this design game for a good three years, and have sharpened
-        my skills working on over 5 projects. <br /> <br />
+        my skills working on over 5 projects. <br />
+        <br />
         With every project, I implement the highest standards of communication
         and collaboration, and believe that process is the foundation of
         success.
@@ -21,20 +22,20 @@
       <div class="exp-box-container ">
         <div class="exp-box flex">
           <h3>
-            Lorem Ipsum Dolor ismet
+            Founders Hope
           </h3>
         </div>
         <div class="exp-box subheading flex" style="margin-top:5px">
-          Aug 2020 - Present
+          May 2019 - July 2019
         </div>
         <div class="bullet">
           <li class="exp-box spacing">
-            Lorem Ipsum Dolor ismetLorem Ipsum Dolor ismetLorem Ipsum Dolor
-            ismetLorem Ipsum Dolor ismet
+            Analyze user needs to determine technical requirements.
           </li>
           <li class="exp-box spacing">
-            Lorem Ipsum Dolor ismetLorem Ipsum Dolor ismetLorem Ipsum Dolor
-            ismetLorem Ipsum Dolor ismet
+            Design, build, or maintain web sites, using authoring or scripting
+            languages, content creation tools, management tools, and digital
+            media.
           </li>
         </div>
         <div class="tech-container spacing flex">
@@ -42,29 +43,224 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style="color:#61DBFB"></a>
-            <a class="fab fa-vuejs fa-2x" style="color:#41B883"></a>
-            <a class="fab fa-css3 fa-2x" style="color:#264de4"></a>
-            <a class="fab fa-python fa-2x" style="color:#4B8BBE"></a>
+            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:5px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
+            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Web Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            Glocal Tech Seva
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          May 2019
+        </div>
+        <div class="bullet">
+          <li class="exp-box spacing">
+            Write supporting code for web applications or web site.
+          </li>
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a
+              class="fab fa-html5 fa-2x"
+              style=" margin:5px;color:#e34c26 "
+            ></a>
+            <a
+              class="fab fa-js-square fa-2x"
+              style=" margin:5px;color:#f0db4f"
+            ></a>
+            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
+            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Front End Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            Delux AIO
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          July 2019 - Sept 2019
+        </div>
+        <div class="bullet">
+          <li class="exp-box spacing">
+            Store , retrieve and manipulate data for analysis of system
+            capabilities and requirements.
+          </li>
+          <li class="exp-box spacing">
+            Modify Existing software to correct errors
+          </li>
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
+            <a class="fab fa-mdb fa-2x" style=" margin:5px;color:#563d7c"></a>
+            <!-- <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a> -->
+            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        App Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            CODEY
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          April 2019 - Present
+        </div>
+        <div class="bullet">
+          <li class="exp-box spacing">
+            Worked on a mobile application that utilized HTML, JavaScript React,
+            Redux and Flask.
+          </li>
+          <li class="exp-box spacing">
+            Actively worked in an agile software development environment which
+            utilized the Scrum process.
+          </li>
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
+            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
+            <a
+              class="fab fa-python fa-2x"
+              style=" margin:5px;color:#4B8BBE"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Front End Lead
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            Uplaw
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          May 2020 - August 2020
+        </div>
+        <div class="bullet">
+          <li class="exp-box spacing">
+            Analyze user needs to determine technical requirements.
+          </li>
+          <li class="exp-box spacing">
+            Design, build, or maintain web sites, using authoring or scripting
+            languages, content creation tools, management tools, and digital
+            media.
+          </li>
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:5px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
+            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        App Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            Food Donation App
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          September 2020 - November 2020
+        </div>
+        <div class="bullet">
+          <li class="exp-box spacing">
+            Analyze user needs to determine technical requirements.
+          </li>
+          <li class="exp-box spacing">
+            Worked on a mobile application that utilized HTML, JavaScript React,
+            and Firebase.
+          </li>
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:5px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
+            <a
+              class="fab fa-google fa-2x"
+              style=" margin:5px;color:#FFA611"
+            ></a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="spacing"><h2>Stacks</h2></div>
-    <div class="exp-container flex spacing">
-      <div>A</div>
-      <div>B</div>
-      <div>C</div>
-      <div>D</div>
-      <div>E</div>
-      <div>F</div>
+    <div
+      class="exp-container flex spacing"
+      style="flex-direction: row;width:100%; justify-content: space-between;"
+    >
+      <img src="../assets/react.svg" />
+      <img src="../assets/vue-9.svg" />
+      <img src="../assets/bootstrap-4.svg" />
+      <img src="../assets/flutter-logo.svg" />
+      <!-- <img src="../assets/redis.svg" /> -->
+      <img src="../assets/flask.svg" />
     </div>
   </div>
 </template>
 
 <script></script>
 <style scoped>
+img {
+  width: 45px;
+}
 .flex {
   display: flex;
   justify-content: flex-start;
@@ -81,7 +277,6 @@
   margin-bottom: 5px;
 }
 .exp-container {
-  /* border: 5px red solid; */
   min-width: 300px;
   flex-direction: row;
   justify-content: space-around;
@@ -89,7 +284,7 @@
 .heading {
   font-size: 1.17em;
   font-weight: bold;
-  color: aquamarine;
+  color: #7fffd4;
   flex: 0.2;
   flex-wrap: wrap;
   border-left: 1px aquamarine solid;
