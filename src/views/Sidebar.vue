@@ -1,36 +1,52 @@
 /* eslint-disable prettier/prettier */
 <template>
   <div class="xcontainer flex">
-    <div class="profile spacing" />
+    <img
+      class="profile spacing"
+      src="https://p0.piqsels.com/preview/838/457/206/hacker-guy-hood-hoodie.jpg"
+    />
     <div class="name spacing">
       <h1>Siddharth Mishra</h1>
-    </div>
-    <div class="breif">
-      <p>
-        Lorem ipsum is placeholder text commonly used in the graphic, print, and
-        publishing industries for previewing layouts and visual mockups.
-      </p>
+
+      <div class="breif spacing">
+        <p>
+          Lorem ipsum is placeholder text commonly used in the graphic, print,
+          and publishing industries for previewing layouts and visual mockups.
+        </p>
+      </div>
     </div>
     <div class="icons-container flex spacing">
-      <div class="icon">Github</div>
-      <div class="icon">Discord</div>
-      <div class="icon">LinkedIn</div>
+      <a
+        class="fab fa-discord fa-2x icon"
+        href="https://discordapp.com/users/361185528626020353/"
+        alt="Discord"
+      ></a>
+      <a
+        class="fab fa-github icon fa-2x"
+        href="https://github.com/Sidm9/"
+        alt="Github"
+      ></a>
+      <a
+        class="fab fa-linkedin icon fa-2x"
+        href="https://www.linkedin.com/in/siddharth-mishra-56273b172/"
+        alt="LinkedIn"
+      ></a>
     </div>
     <button class="button spacing">
       Resume
     </button>
     <div class="nav-links flex spacing">
-      <div class="spacing">
+      <div class="spacing link">
         <router-link to="/">
           Home
         </router-link>
       </div>
-      <div class="spacing">
+      <div class="spacing link">
         <router-link to="/About">
           About
         </router-link>
       </div>
-      <div class="spacing">
+      <div class="spacing link">
         <router-link to="/contacts">
           Contact
         </router-link>
@@ -41,7 +57,7 @@
 
 <script>
 export default {
-  name: "Sidebar",
+  name: "Sidebar"
 };
 </script>
 
@@ -51,36 +67,58 @@ export default {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.breif {
-  max-width: ;
-  margin-top: 5px;
-}
 /* .icons-container {
 } */
 .icon {
   margin-right: 5px;
+  width: 35px;
+  height: 35px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 .spacing {
   margin-top: 20px;
 }
-.breif {
+.name {
+  justify-content: start;
+  text-align: left;
+  max-width: 300px;
+}
+.breif spacing {
+  margin-top: 5px;
   font-size: 15px;
   text-align: left;
 }
+.button {
+  margin-left: 5px;
+  border-radius: 8px;
+  width: 95px;
+  height: 35px;
+  border: 1px solid #42b983;
+  outline: none;
+}
+.button:hover {
+  background-color: #42b983;
+  color: whitesmoke;
+}
 .profile {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  border: white 1px solid;
+  box-shadow: -2px -1px 8px 0px rgba(190, 190, 190, 0.25);
 }
 .xcontainer {
   /* border: white 5px solid; */
   flex-direction: column;
   width: 100%;
-  height: 80vh;
+  height: auto;
 }
 .nav-links {
   text-align: left;
+  width: 100%;
+  font-size: 1.2em;
   text-decoration: none;
   flex-direction: column;
 }
@@ -88,19 +126,39 @@ export default {
   text-align: left;
 } */
 .nav-links a {
+  text-decoration: none;
   font-weight: bold;
-  color: #2c3e50;
+  color: rgba(240, 248, 255, 0.76);
 }
+.link,
+.icon,
+.button {
+  transition: transform 0.2s;
+}
+.link:hover,
+.icon:hover,
+.button:hover {
+  transform: scale(1.12);
+  text-shadow: 0.3px 0.3px 0.5px #2c3e50;
+}
+
 .nav-links a.router-link-exact-active {
   color: #42b983;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1055px) {
   .flex {
     justify-content: center;
     align-items: center;
   }
-  .breif {
+  .name,
+  .breif spacing {
     text-align: center;
+  }
+  .nav-links {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 </style>

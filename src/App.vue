@@ -19,22 +19,27 @@ export default {
 };
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 * {
+  font-family: "Raleway", sans-serif;
   margin: 0px;
-  background-color: #20262c;
+  background-color: #121212;
+  color: rgba(240, 248, 255, 0.76);
 }
 #app {
   text-align: center;
-  color: whitesmoke;
+  color: rgb(36, 36, 36);
   margin-top: 80px;
   margin-bottom: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
   display: flex;
   justify-content: center;
 }
 .container {
   display: flex;
   width: auto;
-  border: 5px yellow ridge;
+  /* border: 5px yellow ridge; */
   display: flex;
   flex-wrap: wrap;
   align-items: auto;
@@ -47,18 +52,20 @@ export default {
   flex: 1;
   text-align: left;
   height: auto;
-  width: 700px;
-  border: blue 10px solid;
+  min-width: 550px;
+  max-width: 550px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 650px) {
   #sidebar-container,
   #app {
     width: auto;
   }
+
   .sidebar-container,
   .navBoxes {
     width: auto;
+    min-width: auto;
   }
 }
 </style>
