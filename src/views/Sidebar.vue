@@ -1,17 +1,16 @@
 /* eslint-disable prettier/prettier */
 <template>
   <div class="xcontainer flex">
-    <img
-      class="profile spacing"
-      src="https://p0.piqsels.com/preview/838/457/206/hacker-guy-hood-hoodie.jpg"
-    />
+    <div class="profile spacing" src="../assets/SID.jpg" />
     <div class="name spacing">
       <h1>Siddharth Mishra</h1>
 
       <div class="breif spacing">
         <p>
-          Lorem ipsum is placeholder text commonly used in the graphic, print,
-          and publishing industries for previewing layouts and visual mockups.
+          I am a web developer . I specialize in digital strategy, project
+          management, and development. <br /><br />
+          I have been at this developing websites and Webapps for a good three
+          years, and have sharpened my skills working on over 5 projects.
         </p>
       </div>
     </div>
@@ -31,8 +30,9 @@
         href="https://www.linkedin.com/in/siddharth-mishra-56273b172/"
         alt="LinkedIn"
       ></a>
+     
     </div>
-    <button class="button spacing">
+    <button class="button spacing" @click="loadResume()">
       Resume
     </button>
     <div class="nav-links flex spacing">
@@ -46,18 +46,27 @@
           Projects
         </router-link>
       </div>
-      <div class="spacing link">
+      <!-- <div class="spacing link">
         <router-link to="/contacts">
           Contact
-        </router-link>
-      </div>
+        </router-link> 
+      </div>-->
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Sidebar"
+  name: "Sidebar",
+
+  methods: {
+    loadResume: function() {
+      // https://drive.google.com/file/d/1cQYzoW-hFkytMArvQH1uTQ2xq1pKpvwY/view?usp=sharing
+      window.open(
+        "https://drive.google.com/u/1/uc?id=1cQYzoW-hFkytMArvQH1uTQ2xq1pKpvwY&export=download"
+      );
+    }
+  }
 };
 </script>
 
@@ -82,6 +91,7 @@ a {
   margin-top: 20px;
 }
 .name {
+  font-family: "HelveticaMedium", Helvetica, sans-serif;
   justify-content: start;
   text-align: left;
   max-width: 300px;
@@ -104,8 +114,10 @@ a {
   color: whitesmoke;
 }
 .profile {
-  width: 120px;
-  height: 120px;
+  background-image: url("../assets/SID.jpg");
+  background-size: cover;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   box-shadow: -2px -1px 8px 0px rgba(190, 190, 190, 0.25);
 }
@@ -158,7 +170,7 @@ a {
   }
   .nav-links {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 </style>

@@ -14,16 +14,24 @@
 import Sidebar from "./views/Sidebar.vue";
 export default {
   components: {
-    Sidebar
-  }
+    Sidebar,
+  },
 };
 </script>
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("./fonts/HelveticaNeueLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaMedium";
+  src: url("./fonts/HelveticaNeueMedium.ttf") format("truetype");
+}
 * {
-  font-family: "Raleway", sans-serif;
+  transition: all 1s ease-in-out;
+  font-family: "HelveticaLight", Helvetica, sans-serif;
   margin: 0px;
-  background-color: #121212;
+  background-color: #0b0b0f;
   color: rgba(240, 248, 255, 0.76);
 }
 #app {

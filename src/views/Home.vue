@@ -43,10 +43,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
-            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:5px;color:#41B883"></a> -->
-            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
-            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+            <!-- <a class="fab fa-python fa-2x" style=" margin:10px;color:#4B8BBE"></a> -->
           </div>
         </div>
       </div>
@@ -77,14 +77,14 @@
           <div>
             <a
               class="fab fa-html5 fa-2x"
-              style=" margin:5px;color:#e34c26 "
+              style=" margin:10px;color:#e34c26 "
             ></a>
             <a
               class="fab fa-js-square fa-2x"
-              style=" margin:5px;color:#f0db4f"
+              style=" margin:10px;color:#f0db4f"
             ></a>
-            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
-            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+            <!-- <a class="fab fa-python fa-2x" style=" margin:10px;color:#4B8BBE"></a> -->
           </div>
         </div>
       </div>
@@ -117,10 +117,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
-            <a class="fab fa-mdb fa-2x" style=" margin:5px;color:#563d7c"></a>
-            <!-- <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a> -->
-            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <a class="fab fa-mdb fa-2x" style=" margin:10px;color:#563d7c"></a>
+            <!-- <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a> -->
+            <!-- <a class="fab fa-python fa-2x" style=" margin:10px;color:#4B8BBE"></a> -->
           </div>
         </div>
       </div>
@@ -154,11 +154,11 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
-            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
+            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
             <a
               class="fab fa-python fa-2x"
-              style=" margin:5px;color:#4B8BBE"
+              style=" margin:10px;color:#4B8BBE"
             ></a>
           </div>
         </div>
@@ -193,10 +193,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
-            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:5px;color:#41B883"></a> -->
-            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
-            <!-- <a class="fab fa-python fa-2x" style=" margin:5px;color:#4B8BBE"></a> -->
+            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+            <!-- <a class="fab fa-python fa-2x" style=" margin:10px;color:#4B8BBE"></a> -->
           </div>
         </div>
       </div>
@@ -229,13 +229,51 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:5px;color:#61DBFB"></a>
-            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:5px;color:#41B883"></a> -->
-            <a class="fab fa-css3 fa-2x" style=" margin:5px;color:#264de4"></a>
+            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
             <a
               class="fab fa-google fa-2x"
-              style=" margin:5px;color:#FFA611"
+              style=" margin:10px;color:#FFA611"
             ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Front End Intern
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            SkillSanta
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          January 2021 -
+        </div>
+        <div class="bullet">
+          <li class="exp-box spacing">
+            Analyze user needs to determine technical requirements.
+          </li>
+          <li class="exp-box spacing">
+            Working on a web application that utilized HTML and CSS,
+          </li>
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a
+              class="fab fa-html5 fa-2x"
+              style=" margin:10px;color:#e34c26 "
+            ></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+            <a class="fab fa- fa-2x" style=" margin:10px;color:#FFA611"></a>
           </div>
         </div>
       </div>
@@ -250,11 +288,11 @@
       <img src="../assets/vue-9.svg" />
       <img src="../assets/bootstrap-4.svg" />
       <img src="../assets/flutter-logo.svg" />
-      <!-- <img src="../assets/redis.svg" /> -->
-      <img src="../assets/flask.svg" />
+      <img src="../assets/redis.svg" />
+      <img src="../assets/FLASKKKimage.webp" />
     </div>
   </div>
-</template>
+</template>                       
 
 <script></script>
 <style scoped>

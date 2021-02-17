@@ -4,18 +4,60 @@
     <div class="spacing"></div>
 
     <div class="exp-container spacing flex">
-      <div class="exp-box heading">
-        <h3>
-          Front End Developer
-        </h3>
+      <div class="card">
+        <h2>CODEY</h2>
       </div>
 
-      <div class="exp-box-container ">
-        <div class="exp-box">
-          <h3>
-            Lorem Ipsum Dolor ismet
-          </h3>
-        </div>
+      <div class="img">
+        <img src="../assets/CODEY.png" width="100%" height="100%" />
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="card">
+        <h2>Founders Hope</h2>
+      </div>
+
+      <div class="img">
+        <img
+          src="https://sidm9.github.io/static/media/FH.e5957e6d.png"
+          width="100%"
+          height="100%"
+        />
+      </div>
+    </div>
+
+    <!-- <div class="exp-container spacing flex">
+      <div class="card">
+        <h2>Uplaw</h2>
+      </div>
+
+      <div class="img">
+        <img src="" />
+      </div>
+    </div> -->
+
+    <div class="exp-container spacing flex">
+      <div class="card">
+        <h2>Glocal Tech Seva</h2>
+      </div>
+
+      <div class="img">
+        <img
+          src="https://sidm9.github.io/static/media/Glocal.7d07e64d.png"
+          width="100%"
+          height="100%"
+        />
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="card">
+        <h2>SkillSanta</h2>
+      </div>
+
+      <div class="img">
+        <img src="../assets/SKSanta.png" width="100%" height="100%" />
       </div>
     </div>
   </div>
@@ -35,26 +77,35 @@ export default {};
 .spacing {
   margin-top: 20px;
 }
-
-.heading {
-  flex: 0.3;
+.card {
+  display: flex;
+  flex: 0.5;
+  padding: 10px 10px 10px 10px;
 }
 
+.img {
+  flex: 0.6;
+  height: inherit;
+}
+.img,
+.img > img {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
 .exp-container {
-  /* border: 5px red solid; */
+  border: 2px aquamarine solid;
+  box-shadow: 2px 7px 13px 2px rgba(127, 255, 212, 0.055);
+  border-radius: 8px;
   width: 100%;
   flex-direction: row;
-  align-items: sa;
-  justify-content: space-around;
+  align-items: center;
+  transition: 1s all;
+  justify-content: center;
 }
 
-.exp-box {
-  /* border: 1px solid black; */
+.exp-container:hover {
+  transform: scale(1.07);
 }
-.exp-box-container {
-  flex: 0.7;
-}
-
 .main-heading {
   font-size: 60px;
   font-weight: bold;
