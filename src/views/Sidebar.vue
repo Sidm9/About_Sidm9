@@ -62,9 +62,9 @@ export default {
   methods: {
     loadResume: function() {
       // https://drive.google.com/file/d/1cQYzoW-hFkytMArvQH1uTQ2xq1pKpvwY/view?usp=sharing
-      window.open(
-        "https://drive.google.com/u/1/uc?id=1cQYzoW-hFkytMArvQH1uTQ2xq1pKpvwY&export=download"
-      );
+      // window.open(
+      //   LINK ON NEW RESUME
+      // );
     }
   }
 };
