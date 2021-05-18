@@ -300,12 +300,27 @@
       class="exp-container flex spacing"
       style="flex-direction: row;width:100%; justify-content: space-between;"
     >
-      <img src="../assets/react.svg" />
-      <img src="../assets/vue-9.svg" />
-      <img src="../assets/bootstrap-4.svg" />
-      <img src="../assets/flutter-logo.svg" />
-      <img src="../assets/redis.svg" />
-      <img src="../assets/FLASKKKimage.webp" />
+      <img
+        src="../assets/react.svg"
+        alt="reactjs"
+        href="https://reactjs.org/"
+      />
+      <img src="../assets/vue-9.svg" alt="vue" href="https://vuejs.org/" />
+      <img
+        src="../assets/flutter-logo.svg"
+        alt="flutter"
+        href="https://flutter.dev"
+      />
+      <img
+        src="../assets/redis.svg"
+        alt="redis"
+        href="https://redis.io/topics/introduction"
+      />
+      <img
+        src="../assets/FLASKKKimage.webp"
+        alt="flask"
+        href="https://flask.palletsprojects.com"
+      />
     </div>
   </div>
 </template>
