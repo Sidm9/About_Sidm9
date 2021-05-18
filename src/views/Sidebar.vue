@@ -30,11 +30,10 @@
         href="https://www.linkedin.com/in/siddharth-mishra-56273b172/"
         alt="LinkedIn"
       ></a>
-     
     </div>
-    <button class="button spacing" @click="loadResume()">
+    <!-- <button class="button spacing" @click="loadResume()">
       Resume
-    </button>
+    </button> -->
     <div class="nav-links flex spacing">
       <div class="spacing link">
         <router-link to="/">
@@ -61,7 +60,7 @@ export default {
 
   methods: {
     loadResume: function() {
-       // https://drive.google.com/file/d/1cQYzoW-hFkytMArvQH1uTQ2xq1pKpvwY/view?usp=sharing
+      // https://drive.google.com/file/d/1cQYzoW-hFkytMArvQH1uTQ2xq1pKpvwY/view?usp=sharing
       window.open(
         "https://drive.google.com/u/1/uc?id=1cQYzoW-hFkytMArvQH1uTQ2xq1pKpvwY&export=download"
       );
