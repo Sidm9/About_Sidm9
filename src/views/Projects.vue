@@ -9,7 +9,12 @@
       </div>
 
       <div class="img">
-        <img src="../assets/CODEY.png" width="100%" height="100%" />
+        <img
+          src="../assets/CODEY.webp"
+          width="100%"
+          height="100%"
+          alt="CODEY"
+        />
       </div>
     </div>
 
@@ -20,7 +25,8 @@
 
       <div class="img">
         <img
-          src="https://sidm9.github.io/static/media/FH.e5957e6d.png"
+          src="../assets/FH.e5957e6d.webp"
+          alt="founders Hope"
           width="100%"
           height="100%"
         />
@@ -44,9 +50,10 @@
 
       <div class="img">
         <img
-          src="https://sidm9.github.io/static/media/Glocal.7d07e64d.png"
+          src="../assets/Glocal.7d07e64d.webp"
           width="100%"
           height="100%"
+          alt="glocal tech seva"
         />
       </div>
     </div>
@@ -57,7 +64,27 @@
       </div>
 
       <div class="img">
-        <img src="../assets/SKSanta.png" width="100%" height="100%" />
+        <img
+          src="../assets/SKSanta.webp"
+          width="100%"
+          height="100%"
+          alt="skillsanta"
+        />
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="card">
+        <h2>CovHelp</h2>
+      </div>
+
+      <div class="img">
+        <img
+          src="../assets/covhelp.webp"
+          width="100%"
+          height="100%"
+          alt="covHelp"
+        />
       </div>
     </div>
   </div>
