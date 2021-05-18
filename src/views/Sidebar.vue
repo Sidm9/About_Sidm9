@@ -6,10 +6,9 @@
 
       <div class="breif spacing">
         <p>
-          I am a web developer . I specialize in digital strategy, project
-          management, and development. <br /><br />
-          I have been at this developing websites and Webapps for a good three
-          years, and have sharpened my skills working on over 5 projects.
+          <b>
+            Minimialist Web-App Developer
+          </b>
         </p>
       </div>
     </div>

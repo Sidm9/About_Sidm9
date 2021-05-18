@@ -4,9 +4,10 @@
     <div class="spacing"><h2>Biography</h2></div>
     <div class="spacing">
       <p>
-        I specialize in digital strategy, project management, and development. I
-        have been at this design game for a good three years, and have sharpened
-        my skills working on over 5 projects. <br />
+        I specialize in digital strategy, project management, and
+        <b>Web-app development.</b> I have been at this design game for a good
+        three years, and have sharpened my skills working on over 5 projects.
+        <br />
         <br />
         With every project, I implement the highest standards of communication
         and collaboration, and believe that process is the foundation of
