@@ -43,7 +43,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <a
+              class="fab fa-react fa-2x"
+              style=" margin:10px;color:#61DBFB"
+            ></a>
             <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
             <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
             <!-- <a class="fab fa-python fa-2x" style=" margin:10px;color:#4B8BBE"></a> -->
@@ -117,7 +120,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <a
+              class="fab fa-react fa-2x"
+              style=" margin:10px;color:#61DBFB"
+            ></a>
             <a class="fab fa-mdb fa-2x" style=" margin:10px;color:#563d7c"></a>
             <!-- <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a> -->
             <!-- <a class="fab fa-python fa-2x" style=" margin:10px;color:#4B8BBE"></a> -->
@@ -154,7 +160,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <a
+              class="fab fa-react fa-2x"
+              style=" margin:10px;color:#61DBFB"
+            ></a>
             <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
             <a
               class="fab fa-python fa-2x"
@@ -193,7 +202,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <a
+              class="fab fa-react fa-2x"
+              style=" margin:10px;color:#61DBFB"
+            ></a>
             <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
             <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
             <!-- <a class="fab fa-python fa-2x" style=" margin:10px;color:#4B8BBE"></a> -->
@@ -229,7 +241,10 @@
             Technologies:
           </div>
           <div>
-            <a class="fab fa-react fa-2x" style=" margin:10px;color:#61DBFB"></a>
+            <a
+              class="fab fa-react fa-2x"
+              style=" margin:10px;color:#61DBFB"
+            ></a>
             <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
             <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
             <a
@@ -292,7 +307,7 @@
       <img src="../assets/FLASKKKimage.webp" />
     </div>
   </div>
-</template>                       
+</template>
 
 <script></script>
 <style scoped>

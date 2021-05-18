@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 <template>
   <div class="xcontainer flex">
     <div class="profile spacing" src="../assets/SID.jpg" />
@@ -41,7 +40,7 @@
         </router-link>
       </div>
       <div class="spacing link">
-        <router-link to="/About">
+        <router-link to="/projects">
           Projects
         </router-link>
       </div>
