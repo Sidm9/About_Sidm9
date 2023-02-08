@@ -268,7 +268,7 @@
           </h3>
         </div>
         <div class="exp-box subheading flex" style="margin-top:5px">
-          January 2021 -
+          January 2021 - February 2021
         </div>
         <div class="bullet">
           <li class="exp-box spacing">
@@ -287,6 +287,125 @@
               class="fab fa-html5 fa-2x"
               style=" margin:10px;color:#e34c26 "
             ></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+            <a class="fab fa- fa-2x" style=" margin:10px;color:#FFA611"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Front end Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            Mappe
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          April 2021 - Present
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a
+              class="fab fa-html5 fa-2x"
+              style=" margin:10px;color:#e34c26 "
+            ></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+            <a class="fab fa- fa-2x" style=" margin:10px;color:#FFA611"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Front End Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            Titanium
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          August 2022 - Present
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a
+              class="fab fa-html5 fa-2x"
+              style=" margin:10px;color:#e34c26 "
+            ></a>
+            <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+            <a class="fab fa- fa-2x" style=" margin:10px;color:#FFA611"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Mobile Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            Signally
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          August 2022 - Present
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <a class="fab fa- fa-2x" style=" margin:10px;color:#41B883"></a>
+            <img
+              src="../assets/nextjs.svg"
+              style="margin-left:-15px;width:26px;"
+            />
+            <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-container spacing flex">
+      <div class="exp-box heading">
+        Developer
+      </div>
+      <div class="exp-box-container ">
+        <div class="exp-box flex">
+          <h3>
+            A7A Labs
+          </h3>
+        </div>
+        <div class="exp-box subheading flex" style="margin-top:5px">
+          October 2022 - Present
+        </div>
+        <div class="tech-container spacing flex">
+          <div>
+            Technologies:
+          </div>
+          <div>
+            <img
+              src="../assets/nextjs.svg"
+              style="margin-left:10px;width:26px;"
+            />
             <!-- <a class="fab fa-vuejs fa-2x" style=" margin:10px;color:#41B883"></a> -->
             <a class="fab fa-css3 fa-2x" style=" margin:10px;color:#264de4"></a>
             <a class="fab fa- fa-2x" style=" margin:10px;color:#FFA611"></a>
